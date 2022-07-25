@@ -26,8 +26,8 @@ public class Part_1 : MonoBehaviour
         y = 10 + 5;
         z /= 10;
         x += y + z;
-
-        // Answer: x = 
+        
+        // Answer: x = 16
         //=====================================================
 
         //Part 2 (1pt) ==============================================
@@ -38,7 +38,7 @@ public class Part_1 : MonoBehaviour
         y = 48 / 4;
         isTrue = x == y;
 
-        // Answer: isTrue = 
+        // Answer: isTrue = True
         //=====================================================
 
         //Part 3 (1pt) ==============================================
@@ -49,8 +49,8 @@ public class Part_1 : MonoBehaviour
         {
             x += i;
         }
-
-        // Answer: x = 
+        
+        // Answer: x = 45
         //=====================================================
 
         //Part 4 (1pt) ==============================================
@@ -78,8 +78,8 @@ public class Part_1 : MonoBehaviour
         {
             x = 5;
         }
-
-        // Answer: x = 
+        
+        // Answer: x = 3
         //=====================================================
 
         //Part 5 (1pt) ==============================================
@@ -90,8 +90,8 @@ public class Part_1 : MonoBehaviour
         {
             a[i] = i;
         }
-
-        // Answer: 
+        
+        // Answer: Index was outside the bounds of the array.
         //=====================================================
 
     }

@@ -12,7 +12,11 @@ public class Part_2_2 : MonoBehaviour
             133, 14, 15 ,16 ,117 ,18 ,19, 20, 291, 22, 3, 24, 25};
         int sum = 0;
 
-
+        for (int i = 0; i < 25; i++)
+            if (list[i] % 2==0)
+        {
+            sum += list[i];
+        }
 
         print(sum);
     }
